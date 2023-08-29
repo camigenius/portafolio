@@ -33,7 +33,7 @@ Lottie_coding=load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_iv4d
 #https://www.webfx.com/tools/emoji-cheat-sheet/
 st.sidebar.success(":point_up_2:choose an option!")
 pdfFileObj = open('pages/Curriculum_vitae.pdf', 'rb')
-st.sidebar.download_button('Download resume',pdfFileObj,file_name='Curriculum_vitae.pdf',mime='pdf')
+st.sidebar.download_button('Download resume C.V',pdfFileObj,file_name='Curriculum_vitae.pdf',mime='pdf')
 
 
 with st.container():
