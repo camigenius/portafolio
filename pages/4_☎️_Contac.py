@@ -7,6 +7,9 @@ st.set_page_config(
 )
 
 
+
+st.write('- "Visit my website and find consulting and learning services in Microsoft Excel and data analysis." [Click hear 📍](https://excelfriend.wixsite.com/excelfriend/services)')
+
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -33,5 +36,3 @@ with left_column:
     st.markdown(contact_form,unsafe_allow_html=True)
 with right_column:
     st.empty()
-
-

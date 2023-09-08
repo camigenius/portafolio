@@ -3,6 +3,18 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 
+
+
+# Ideas hacer el bucle para los videos
+# Falta relacionar el resto de certificados
+# Falta hacer enlace para trabajos en Excel
+# Falta enlace para sereing sas, y enlace familiar Laura
+# Falta trabajos en los cuales me he desempeñad Resumen
+# Falta volver activar projectos que habia realizado como el de transmilenio
+
+
+
+
 # st.set_page_config(
 #     page_title="🤖Camilo franco",
 #     page_icon="🐺",
